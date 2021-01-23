@@ -30,6 +30,7 @@ The following run configurations needed to be set as VM arguments:
 
 A MySQL JDBC driver had to be imported to provide the IDE a connection to the MySQL database.
 
+
 ## Usage
 The basic functionality of the website is as follows:
 

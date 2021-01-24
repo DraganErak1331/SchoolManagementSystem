@@ -92,6 +92,6 @@ The basic functionality of the website is as follows:
 ## Resources Used
 
 This project was based off of the following YouTube tutorial: https://www.youtube.com/watch?v=h1rYlMrvNyE
-* MySQL was used instead of SQLite
+* MySQL was used instead of SQLite.
 * The button for deleting entries was not done in the video.
 * The Add Admin button was not done in the video.

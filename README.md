@@ -10,7 +10,7 @@ This is an application that functions as a student database. It was created usin
 
 For the backend, it uses a schema called "school", along with a "students" table and a "login" table using MySQL Server and Workbench.
 * The students table is a table that holds entries that contain the columns ID, first_name, last_name, email, and DOB. The ID is the primary key and it automatically increments. These columns are referencing "Student Data" entries.
-* The login table is a table that holds entries containing the columns <b>username</b> and <u>password</u>u>. These columns are referencing <i>username</i> and password login information to enter the system.
+* The login table is a table that holds entries containing the columns <b>username</b> and <u>password</u>. These columns are referencing <i>username</i> and password login information to enter the system.
 
 For the frond end, it is using the SchoolManagementSystem Java project. In it's src folder, it contains an admin package, a dbutil package and a login package. The admin and login package use a model-view-controller pattern to develop each window of the application.
 * The dbutil package contains the java class file DatabaseConnection.java, which is used to establish a connection to the MySQL database on the schema "school" by using the appropriate credentials and URL of the database.

@@ -33,47 +33,18 @@ A MySQL JDBC driver had to be imported to provide the IDE a connection to the My
 ## Usage
 The basic functionality of the website is as follows:
 
-* Run the server file by going to the backend directory and using the following command
-```sh
-nodemon server
-```
+* The program is launched and the School Management System windows appears.
 
-* In the main project directory use the following command
-```sh
-npm start
-```
+<img src = "screenshots/login_page.PNG">
 
-<hr>
-
-* The main page displays all of the logged exercises. From here, a user can either edit or delete an exercise log. Clicking the edit button brings the user to a page where they can edit the exercise log. Clicking delete will delete the exercise log from the list.
-
-<img src = "screenshots/main_page.PNG">
-
-<hr>
-
-* Clicking the Create Exercise Log tab of the navbar on the top of a page will bring the user to the page where they can create a new exercise log.
-
-<img src = "screenshots/create_exercise.PNG">
-<img src = "screenshots/main_page_after_create.PNG">
-
-<hr>
-
-* In the edit exercise page, the user can edit any of the aspects of any exercise log. Clicking the Edit Exercise Log button will update the respective exercise log in the Logged Exercises list on the main page of the website.
-
-<img src = "screenshots/edit_exercise.PNG">
-<img src = "screenshots/main_page_after_edit.PNG">
-
-<hr>
-
-* Clicking the Exercises tab of the navbar on the top of a page will bring the user to the main page of the website.
-
-<img src = "screenshots/main_page.PNG">
-
-<hr>
-
-* Clicking the Create User tab of the navbar on the top of a page will bring the user to the page where they can create a new user to be entered in the Username section of an exercise log.
-
-<img src = "screenshots/create_user.PNG">
+* The user must enter the right credentials as per the login table of the school schema and click the login button.
+* This brings up the Admin Dashboard of the application.
+* From here the user can click the Load/Refresh Data button to bring up all of the information in the students table of the school schema.
+* The user can add a student by entering information into the text boxes in the Add Student section of the page, then clicking the Add Student button. Load/Refresh Student will need to be clicked to refresh the table.
+* The user can delete a student by clicking on the row of the student they want to delete, then clicking the Deleted Student button. Load/Refresh Student will need to be clicked to refresh the table.
+* The user can clear the text boxes in the Add Student section by clicking the Clear Form button in the Add Student section.
+* The user can add an Admin by entering information into the text boxes in the Add Admin section of the page, then clicking the Add Admin button. Load/Refresh Student will need to be clicked to refresh the table.
+* The user can clear the text boxes in the Add Admin section by clicking the Clear Form button in the Add Admin section.
 
 ## Resources Used
 

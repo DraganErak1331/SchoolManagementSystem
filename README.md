@@ -4,7 +4,7 @@
 
 ## About The Project
 
-<img src = "screenshots/main_page.PNG">
+<img src = "screenshots/loaded_page.PNG">
 
 This is an application that functions as a student database. It was created using Java, JavaFX, the SceneBuilder editor tool, and MySQL.
 
@@ -38,14 +38,40 @@ The basic functionality of the website is as follows:
 <img src = "screenshots/login_page.PNG">
 
 * The user must enter the right credentials as per the login table of the school schema and click the login button.
+
+<img src = "screenshots/wrong_login.PNG">
+
 * This brings up the Admin Dashboard of the application.
+
+<img src = "screenshots/admin_page.PNG">
+
 * From here the user can click the Load/Refresh Data button to bring up all of the information in the students table of the school schema.
+
+<img src = "screenshots/loaded_page.PNG">
+
 * The user can add a student by entering information into the text boxes in the Add Student section of the page, then clicking the Add Student button. Load/Refresh Student will need to be clicked to refresh the table.
+
+<img src = "screenshots/add_student1.PNG">
+<img src = "screenshots/add_student2.PNG">
+
 * The user can delete a student by clicking on the row of the student they want to delete, then clicking the Deleted Student button. Load/Refresh Student will need to be clicked to refresh the table.
+
+<img src = "screenshots/delete_student1.PNG">
+<img src = "screenshots/delete_student2.PNG">
+
 * The user can clear the text boxes in the Add Student section by clicking the Clear Form button in the Add Student section.
-* The user can add an Admin by entering information into the text boxes in the Add Admin section of the page, then clicking the Add Admin button. Load/Refresh Student will need to be clicked to refresh the table.
+
+<img src = "screenshots/clear_student_form1.PNG">
+<img src = "screenshots/clear_student_form2.PNG">
+
+* The user can add an Admin by entering information into the text boxes in the Add Admin section of the page, then clicking the Add Admin button.
+
+<img src = "screenshots/add_admin.PNG">
+
 * The user can clear the text boxes in the Add Admin section by clicking the Clear Form button in the Add Admin section.
+
+<img src = "screenshots/clear_admin_form.PNG">
 
 ## Resources Used
 
-This project was based off of this YouTube tutorial: https://www.youtube.com/watch?v=7CqJlxBYj-M
+This project was based off of this YouTube tutorial: https://www.youtube.com/watch?v=h1rYlMrvNyE

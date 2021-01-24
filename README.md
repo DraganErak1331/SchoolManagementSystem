@@ -9,12 +9,12 @@
 This is an application that functions as a student database. It was created using Java, JavaFX, the SceneBuilder editor tool, and MySQL.
 
 For the backend, it uses a schema called "school", along with a "students" table and a "login" table using MySQL Server and Workbench.
-* The students table is a table that holds entries that contain the <i>columns ID</i>, <i>first_name</i>, <i>last_name</i>, <i>email</i>, and <i>DOB</i>. The ID is the primary key and it automatically increments. These columns are referencing "Student Data" entries.
+* The students table is a table that holds entries that contain the columns <i>ID</i>, <i>first_name</i>, <i>last_name</i>, <i>email</i>, and <i>DOB</i>. The ID column is the primary key and it automatically increments. These columns are referencing "Student Data" entries.
 * The login table is a table that holds entries containing the columns <i>username</i> and <i>password</i>. These columns are referencing username and password login information to enter the system.
 
-For the frond end, it is using the SchoolManagementSystem Java project. In it's src folder, it contains an admin package, a dbutil package and a login package. The admin and login package use a model-view-controller pattern to develop each window of the application.
+For the frond end, it is using the SchoolManagementSystem Java project folder. In it's src folder, it contains an admin package, a dbutil package and a login package. The admin and login package use a model-view-controller pattern to develop each window of the application.
 * The dbutil package contains the java class file DatabaseConnection.java, which is used to establish a connection to the MySQL database on the schema "school" by using the appropriate credentials and URL of the database.
-* The login package contains LoginModel.java, LoginController.java, LoginModel.java, and Login.fxml. They are the model, controller, view and fxml files respectively for the initial window that appears when the program is launched.
+* The login package contains LoginModel.java, LoginController.java, Login.java, and Login.fxml. They are the model, controller, view and fxml files respectively for the initial window that appears when the program is launched.
 * The admin package contains StudentData.java, AdminModel.java, AdminController.java, and Admin.fxml. The StudentData.java file defines the structure of each student in the database, and the rest of the fles are the model, controller, and fxml files respectively for the window that launches upon successful login into the application via the first window.
 
 ## Getting Started
@@ -28,7 +28,7 @@ The following run configurations needed to be set as VM arguments:
 --add-modules javafx.controls,javafx.fxml
 ```
 
-A MySQL JDBC driver had to be imported to provide the IDE a connection to the MySQL database.
+A MySQL JDBC driver had to be imported to provide the program with a connection to the MySQL database.
 
 ## Usage
 The basic functionality of the website is as follows:
@@ -40,6 +40,7 @@ The basic functionality of the website is as follows:
 * The user must enter the right credentials as per the login table of the school schema and click the login button.
 
 <img src = "screenshots/wrong_login.PNG">
+<img src = "screenshots/correct_login.PNG">
 
 * This brings up the Admin Dashboard of the application.
 

@@ -16,6 +16,7 @@ For the frond end, it is using the SchoolManagementSystem Java project folder. I
 * The dbutil package contains the java class file DatabaseConnection.java, which is used to establish a connection to the MySQL database on the schema "school" by using the appropriate credentials and URL of the database.
 * The login package contains LoginModel.java, LoginController.java, Login.java, and Login.fxml. They are the model, controller, view and fxml files respectively for the initial window that appears when the program is launched.
 * The admin package contains StudentData.java, AdminModel.java, AdminController.java, and Admin.fxml. The StudentData.java file defines the structure of each student in the database, and the rest of the fles are the model, controller, and fxml files respectively for the window that launches upon successful login into the application via the first window.
+<br>
 
 ## Getting Started
 
@@ -29,6 +30,7 @@ The following run configurations needed to be set as VM arguments:
 ```
 
 A MySQL JDBC driver had to be imported to provide the program with a connection to the MySQL database.
+<br>
 
 ## Usage
 The basic functionality of the website is as follows:

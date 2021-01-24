@@ -91,6 +91,7 @@ The basic functionality of the website is as follows:
 * The user can clear the text boxes in the Add Admin section by clicking the Clear Form button in the Add Admin section.
 
 <img src = "screenshots/clear_admin_form.PNG">
+<br>
 
 ## Resources Used
 

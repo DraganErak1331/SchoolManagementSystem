@@ -6,7 +6,7 @@
 
 <img src = "screenshots/loaded_page.PNG">
 
-This is an application that functions as a student database. It was created using Java, JavaFX, the SceneBuilder editor tool, and MySQL.
+This is a desktop application that functions as a student database. It was created using Java, JavaFX, the SceneBuilder editor tool, and MySQL.
 
 For the backend, it uses a schema called "school", along with a "students" table and a "login" table using MySQL Server and Workbench.
 * The students table is a table that holds entries that contain the columns <i>ID</i>, <i>first_name</i>, <i>last_name</i>, <i>email</i>, and <i>DOB</i>. The ID column is the primary key and it automatically increments. These columns are referencing "Student Data" entries.

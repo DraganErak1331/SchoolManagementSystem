@@ -83,7 +83,7 @@ For the frond end, it is using the SchoolManagementSystem Java project folder. I
 
 <br>
 
-### Prerequisites
+## Prerequisites
 The JavaFX SDK needed to be imported as a library in the build path.
 
 The following run configurations needed to be set as VM arguments:
